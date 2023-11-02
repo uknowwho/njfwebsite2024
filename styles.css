@@ -21,20 +21,25 @@ body {
 .banner-logo {
   float: left;
   width: 20%;
-  margin: 2vw;
+  margin-top: 0.5vw;;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  /* margin-bottom: 0.75vw; */
 }
 
 .banner-container h1 {
   font-family: 'Libre Franklin Title';
   color: #FF48B0;
   font-size: 6vw;
-  margin: 1vh;
+  margin: 0.5vh;
 }
 
 .banner-container h2 {
   font-family: 'Libre Franklin Title';
   color: #FF48B0;
   font-size: 4vw;
+  margin-top: 0.5vw;
+  margin-bottom: 3.5vw;
 }
 
 .banner-container {
@@ -67,12 +72,21 @@ body {
   margin: 1vw; /* Add margin between list items */
 }
 
+#language-tile {
+  background-image: url('tile-pink.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#language {
+  color: #3A50A3;
+}
+
 .navbar-container ul li a:visited,
 .navbar-container ul li a {
   color: #FF48B0;
   text-decoration: none;
 }
-
 
 .info-board {
   background-image: url(tile-lightblue.png);
