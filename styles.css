@@ -64,7 +64,7 @@ body {
 
 .navbar-container ul li {
   font-family: 'Libre Franklin Title';
-  font-size: 4vw;
+  font-size: 3.5vw;
   padding: 1vw;
   background-image: url('tile-purple.png');
   background-repeat: no-repeat;
@@ -108,25 +108,33 @@ body {
 }
 
 .info-board p {
+  position: relative;
   color: #3A50A3;
   padding: 3%;
-  font-size: 2vh;
+  font-size: 3vh;
   margin: 0.5%;
 }
 
 #about-njf p {
   width: 70%;
-  z-index: 2;
+  z-index: 3;
 }
 
 #location p {
   width: 75%;
-  z-index: 2;
+  z-index: 3;
 }
 
 #contact p {
   width: 70%;
-  z-index: 2;
+  z-index: 3;
+}
+
+#contact a,
+#contact a:visited {
+  text-decoration: underline;
+  color: #FF48B0;
+  
 }
 
 .info-board img {
