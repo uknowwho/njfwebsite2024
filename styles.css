@@ -113,28 +113,14 @@ body {
   padding: 3%;
   font-size: 3vh;
   margin: 0.5%;
-}
-
-#about-njf p {
+  z-index: 3;
   width: 70%;
-  z-index: 3;
 }
 
-#location p {
-  width: 75%;
-  z-index: 3;
-}
-
-#contact p {
-  width: 70%;
-  z-index: 3;
-}
-
-#contact a,
-#contact a:visited {
+.info-board a,
+.info-board a:visited {
   text-decoration: underline;
   color: #FF48B0;
-  
 }
 
 .info-board img {
