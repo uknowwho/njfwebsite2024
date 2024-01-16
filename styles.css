@@ -107,6 +107,17 @@ body {
   left: 4%;
 }
 
+.info-board h2 {
+  color: #FF48B0;
+  font-size: 2vw;
+  float: left;
+  padding-left: 3%;
+  /* make the heading responsive */
+  /* top: -3.5vw;
+  left: 4%; */
+  margin: 0%;
+}
+
 .info-board p {
   position: relative;
   color: #3A50A3;
@@ -131,3 +142,28 @@ body {
   right: 4%; /* Adjust the right spacing as needed */
   z-index: 2;
 }
+
+.info-board table, th, td {
+  border: 2px solid #3A50A3;
+  border-collapse: collapse;
+}
+
+.info-board th {
+  color: #FF48B0;
+}
+
+.info-board td {
+  color: #3A50A3;
+}
+
+.info-board table {
+  position: relative;
+  padding: 3%;
+  font-size: 3vh;
+  margin: 0.5%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  z-index: 3;
+  width: 70%;
+}
+
