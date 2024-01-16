@@ -98,24 +98,23 @@ body {
 
 .info-board h1 {
   color: #FF48B0;
-  font-size: 4vw;
+  font-size: 6vw;
   position: absolute; 
   float: left;
   margin: 1vw;
   /* make the heading responsive */
-  top: -3.5vw;
+  top: -4.5vw;
   left: 4%;
 }
 
 .info-board h2 {
   color: #FF48B0;
-  font-size: 2vw;
-  float: left;
+  font-size: 4vh;
   padding-left: 3%;
   /* make the heading responsive */
-  /* top: -3.5vw;
-  left: 4%; */
-  margin: 0%;
+  /* top: 4vw; */
+  /* left: 4%;  */
+  margin-bottom: -3%;
 }
 
 .info-board p {
