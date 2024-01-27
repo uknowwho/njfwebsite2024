@@ -98,12 +98,12 @@ body {
 
 .info-board h1 {
   color: #FF48B0;
-  font-size: 6vw;
+  font-size: 8vw;
   position: absolute; 
   float: left;
   margin: 1vw;
   /* make the heading responsive */
-  top: -4.5vw;
+  top: -7vw;
   left: 4%;
 }
 
@@ -163,6 +163,7 @@ body {
   margin: 0.5%;
   margin-left: 3%;
   margin-bottom: 3%;
+  margin-right: 3%;
   z-index: 3;
   width: 70%;
 }
