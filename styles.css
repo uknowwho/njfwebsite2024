@@ -51,6 +51,8 @@ body {
 .navbar-container {
   text-align: center; /* Center the text within the container */
   margin-bottom: 2%;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .navbar-container ul {
@@ -59,12 +61,13 @@ body {
   margin: 0;
   display: flex; /* Use flexbox for horizontal alignment */
   justify-content: center; /* Center the list items horizontally */
+  flex-wrap: wrap;
 
 }
 
 .navbar-container ul li {
   font-family: 'Libre Franklin Title';
-  font-size: 3.5vw;
+  font-size: 5vh;
   padding: 1vw;
   background-image: url('tile-purple.png');
   background-repeat: no-repeat;
