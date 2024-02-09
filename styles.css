@@ -171,3 +171,61 @@ body {
   width: 70%;
 }
 
+.team-board img {
+  position: relative;
+  float: right;
+  /* width: 20%; */
+  max-width: 20%;
+  max-height: 50vh;
+  height: 40%;
+  z-index: 2;
+  right: 3%;
+} 
+
+.team-board a,
+.team-board a:visited {
+  text-decoration: underline;
+  color: #FF48B0;
+}
+
+.team-board p {
+  position: relative;
+  color: #3A50A3;
+  padding: 3%;
+  font-size: 3vh;
+  margin: 0.5%;
+  z-index: 3;
+  width: 70%;
+}
+
+.team-board h1 {
+  color: #FF48B0;
+  font-size: 8vw;
+  position: absolute; 
+  float: left;
+  margin: 1vw;
+  /* make the heading responsive */
+  top: -7vw;
+  left: 4%;
+}
+
+.team-board {
+  background-image: url(tile-lightblue.png);
+  background-size: 100% 100%;
+  position: relative; 
+  margin-top: 5%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 800px) {
+  .team-board {
+    flex-direction: column;
+  }
+
+  .team-board img {
+    max-width: 40%;
+    left: 30%
+  }
+}
