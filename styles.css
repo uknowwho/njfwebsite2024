@@ -131,6 +131,18 @@ body {
   width: 70%;
 }
 
+.info-board pre {
+  position: relative;
+  color: #3A50A3;
+  padding-left: 3%;
+  font-size: 2.4vh;
+  margin: 0.5%;
+  z-index: 3;
+  width: 96%;
+  white-space: pre-wrap;
+  font-family: 'Libre Franklin Title';
+}
+
 .info-board a,
 .info-board a:visited {
   text-decoration: underline;
@@ -217,6 +229,32 @@ body {
   z-index: 1;
   display: flex;
   flex-direction: row;
+}
+
+#program-top-p {
+  position: relative;
+  color: #3A50A3;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 0.5%;
+  font-size: 3vh;
+  margin: 0.5%;
+  z-index: 3;
+  width: 90%;
+}
+
+#program-bot-p {
+  position: relative;
+  color: #3A50A3;
+  padding-top: 0.5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  font-size: 3vh;
+  margin: 0.5%;
+  z-index: 3;
+  width: 70%;
 }
 
 @media only screen and (max-width: 800px) {
