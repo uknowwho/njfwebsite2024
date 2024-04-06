@@ -161,6 +161,7 @@ body {
 .info-board table, th, td {
   border: 2px solid #3A50A3;
   border-collapse: collapse;
+  overflow-x: auto;
 }
 
 .info-board th {
@@ -251,6 +252,16 @@ body {
   padding-left: 3%;
   padding-right: 3%;
   padding-bottom: 3%;
+  font-size: 3vh;
+  margin: 0.5%;
+  z-index: 3;
+  width: 70%;
+}
+
+#below-table {
+  position: relative;
+  color: #3A50A3;
+  padding: 0% 1% 3% 3%;
   font-size: 3vh;
   margin: 0.5%;
   z-index: 3;
